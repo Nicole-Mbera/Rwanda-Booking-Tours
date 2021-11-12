@@ -45,7 +45,7 @@
     
     
 body{
-    background:linear-gradient(to top, rgba(0, 3, 0, 0.452)50%,rgba(0, 12, 0, 0.452)50%),url(./pexels-pixabay-358457.jpg);
+    background:linear-gradient(to top, rgba(0, 3, 0, 0.63)50%,rgba(0, 12, 0, 0.63)50%),url(./pexels-pixabay-358457.jpg);
     background-size: cover;
     background-attachment: fixed;
     
@@ -131,7 +131,7 @@ button{
     width: 100%;
     display: flex;
     background-color: white;
-    height: 70vh;
+    height: 150vh;
 }
 .sign-up-form{
     width: 27%;
@@ -163,7 +163,7 @@ button{
     display: flex;
     width: 100%;
     background-color: white;
-    height: 140vh;
+    height: 210vh;
 } 
   .Gallery-images{
     width: 40%;
@@ -184,9 +184,116 @@ button{
     padding: 5px;
 }
 .Gallery-images h1{
-    color:rgb(0, 77, 0);
+    color:rgb(0, 58, 0);
 }
 .gallery img:hover{
     border: 2.5px solid;
     border-color: rgb(1, 107, 1);
+}
+.tour{
+    width:50%;
+    padding: 10px;
+    background-color: white;
+     padding-right: 50px; 
+} 
+.list{
+    display: flex;
+    border-bottom: 1px solid rgb(0, 59, 10);
+}
+.list-item{
+    flex-direction: column;
+    padding:20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(0, 49, 0);
+    border: 3px;
+}
+.tour{
+    width: 55%;
+    padding-right: 50px;
+    padding: 10px;
+    background-color: white;
+    
+}
+.tour h1{
+    text-align: left;
+    font-size:38px;
+    font-weight: 600;
+    color:rgb(0, 58, 0);
+}
+.our-tour img{
+    object-fit: cover;
+    height: 250px;
+    width:10%;
+    padding: 5px;   
+}
+.our-tours{
+    height:45vh;
+    width: 100%;
+    background-color: white;
+}
+.our-tour img{
+    object-fit: cover;
+    height: 20px;
+    width:10%;
+    padding: 5px;  
+    flex-direction: row; 
+}
+.discription{
+    margin-left: 50px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    height: 30vh;
+}
+.discription h1{
+    font-size: larger;
+}
+.discription-paragraph{
+    font-size: 17px;
+    margin-top: 10px;
+    /* float: left; */
+    
+}
+.read-more-button{
+    margin-left: 280px;
+    color:rgb(0, 37, 0);
+    font-size:18px;
+    border: none;
+    border-bottom: 4px solid rgb(0, 37, 2);
+    background-color: white;
+    width: 20%;
+    margin-top: -18px;
+    /* height: 30px; */
+}
+.Contact-us{
+width: 50%;
+height: 85vh;
+background-color: rgba(255, 255, 255, 0.658);
+margin-left: 350px;
+border-radius: 13px;
+padding: 55px;
+
+font-size: large;
+font-weight: bold;
+}
+.Contact-us h2{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+}
+
+    
+.Social-media h3{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    margin-left: 40px;
+    margin-top: 13px;
+}
+.Social-media-icon img{
+    width: 35px;
+    height: 40px;
+    margin-top: 20px;
+margin-right: 100px;
 }
